@@ -1,5 +1,7 @@
 import { Check, Delete } from '@mui/icons-material';
-import { Box, Button, Container, IconButton, TextField, Typography, Checkbox } from '@mui/material';
+import {
+  Box, Button, Container, IconButton, TextField, Typography, Checkbox,
+} from '@mui/material';
 import { useEffect, useState } from 'react';
 import useFetch from '../hooks/useFetch.ts';
 import { Task } from '../index';
